@@ -1,15 +1,22 @@
 import os
+from dotenv import load_dotenv
 import chromadb
 from chromadb.config import Settings
 from chromadb.utils import embedding_functions
 from openai import OpenAI
 
+load_dotenv()
+
 # -------------------------------
 # GROQ CLIENT SETUP
 # -------------------------------
 
+GROQ_API_KEY = os.getenv("GROQ_API_KEY")
+if not GROQ_API_KEY:
+    raise ValueError("❌ GROQ_API_KEY environment variable not set. Please set it first.")
+
 client = OpenAI(
-    api_key="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",   # <-- apni real key daalo
+    api_key=GROQ_API_KEY,
     base_url="https://api.groq.com/openai/v1"
 )
 

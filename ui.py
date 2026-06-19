@@ -1,4 +1,5 @@
 import os
+from dotenv import load_dotenv
 import streamlit as st
 import chromadb
 import sqlite3
@@ -7,6 +8,8 @@ import io
 import pypdf
 from chromadb.utils import embedding_functions
 from openai import OpenAI
+
+load_dotenv()
 
 st.set_page_config(page_title="RAG Assistant", page_icon="🤖", layout="wide")
 st.title("🤖 RAG Assistant")
@@ -58,8 +61,13 @@ create_users_table()
 # GROQ CLIENT (SAFE)
 # -------------------------------
 
+GROQ_API_KEY = os.getenv("GROQ_API_KEY")
+if not GROQ_API_KEY:
+    st.error("❌ GROQ_API_KEY environment variable not set. Please set it first.")
+    st.stop()
+
 client = OpenAI(
-    api_key=os.getenv("GROQ_API_KEY", "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"),
+    api_key=GROQ_API_KEY,
     base_url="https://api.groq.com/openai/v1"
 )
 
