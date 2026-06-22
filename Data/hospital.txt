@@ -1,0 +1,21 @@
+2. Hospital FAQ Dataset
+Appointment Booking
+
+Patients can book appointments online or by calling the hospital reception.
+
+Emergency Services
+
+Emergency services are available 24 hours a day.
+
+Blood Tests
+
+Blood test reports are usually available within 24 hours.
+
+OPD Timings
+
+Monday to Saturday:
+9:00 AM to 5:00 PM
+
+Insurance Support
+
+The hospital accepts cashless insurance from major providers.

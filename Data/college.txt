@@ -1,0 +1,31 @@
+1. College Admission FAQ Dataset
+Admission Process
+
+Students can apply online through the college admission portal. They must submit personal details, academic records, and required documents. Applications are reviewed by the admission team before confirmation.
+
+Documents Required
+
+Students must provide:
+
+10th Marksheet
+12th Marksheet
+Passport-size photographs
+Aadhaar Card
+Transfer Certificate
+Fee Payment
+
+Fees can be paid online using UPI, debit card, credit card, or net banking. Students may also pay at the institute office.
+
+Attendance Policy
+
+Students must maintain at least 75% attendance to be eligible for examinations.
+
+Batch Timing
+
+Morning Batch: 9 AM – 1 PM
+
+Evening Batch: 2 PM – 6 PM
+
+Refund Policy
+
+Application fees are non-refundable. Tuition fee refunds are processed according to institute guidelines.
